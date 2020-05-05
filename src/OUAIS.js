@@ -47,7 +47,8 @@ render() {
                     id="title"
                     name="title"
                     onChange={this.onChange}
-                    value={this.state.lastname}
+                    value={this.state.title}
+                
                     />
                 </div>
 
@@ -58,7 +59,7 @@ render() {
                     id="poster"
                     name="poster"
                     onChange={this.onChange}
-                    value={this.state.firstname}
+                    value={this.state.poster}
                     />
                 </div>
 
@@ -69,7 +70,7 @@ render() {
                     id="comment"
                     name="comment"
                     onChange={this.onChange}
-                    value={this.state.email}
+                    value={this.state.comment}
                     />
                 </div>
         <hr />
